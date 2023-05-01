@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="CSS/weather.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<title>Weather App</title>
+</head>
+<body>   
+<div class="card" style="border-radius: 20px; border: 3px solid white;" >
+    <div class="row inputform"> 
+        <div class="col-8 input">
+            <input class="textfield" type="text" placeholder="  Enter Location Here">
+        </div>
+        <div class="col-4 sunny">
+            <button class="image-button"> <img src="CSS/images/sunny.png" ></button> 
+        </div>
+        <div class="error">
+            <p>Invalid Input. Please check your spelling!</p>
+        </div>
+    </div>
+    <div class="weather">
+        <div class="weath_cit">
+            <h2 class="city"></h2>
+        </div>
+        <div class="weath_ic">
+            <img src="" alt="" class="icon">
+        </div>
+        <div class="weath_tem">
+            <h1 class="temp"></h1>
+        </div>
+        <div class="details">
+            <p class="description"></p>
+            <p class="high"></p>
+            <p class="low"></p>
+            <p class="feels"></p>
+            <p class="humidity"></p>
+        </div>
+    </div>
+    <div class="row forecast">
+        <div class="forecast_head">
+            <p>---------FORECAST---------</p>
+        </div>   
+        <div class="col-3 tomorrow">
+            <div>
+                <p>Tomorrow</p>
+            </div>
+            <div>
+                <img src="" alt="" class="pic1">
+            </div>
+            <div>
+                <p class="fore1"></p>
+            </div>
+        </div>
+        <div class="col-3 next_day">
+            <div>
+                <p>Next Day</p>
+            </div>
+            <div>
+                <img src="" alt="" class="pic2">
+            </div>
+            <div>
+                <p class="fore2"></p>
+            </div>
+        </div>
+        <div class="col-3 day_after">
+            <div>
+                <p>Day After</p>
+            </div>
+            <div>
+                <img src="" alt="" class="pic3">
+            </div>
+            <div>   
+                <p class="fore3"></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+<script src="js/weather.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

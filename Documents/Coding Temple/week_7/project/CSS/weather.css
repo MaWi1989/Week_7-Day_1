@@ -1,0 +1,359 @@
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 100vh;
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: visible;
+  }
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: auto;
+    max-width: 80% ;
+    min-width: 30vw;
+    height: auto;
+    background: linear-gradient(rgb(244, 234, 160),rgb(223, 118, 12) );
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    padding-top: 2vh;
+    text-align: center;
+    overflow: visible;
+    
+
+}
+
+
+.card input{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 5%;
+    max-height: 75px;
+    min-height: 12px;
+    width: auto;
+    max-width: 60%;
+    min-width: 40px;
+    border: solid 3px #0BCAF0;
+    border-radius: 10px;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    margin-top: 9vh;
+    font-size: 1vh;
+    font-size: 3vh;
+    font-family: 'Goudy Old Style', 'Hight Tower Text', Georgia;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sunny{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card button{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 10vh;
+    width: 5%;
+    max-width: 30%;
+    border: 3px solid #0BCAF0;
+    border-radius: 10px;
+    margin-right: 3vw;
+    margin-left: 1vw;
+    margin-top: 7vh;
+    position: fixed;
+    top: 0;
+    
+
+}
+
+.image-button img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+    max-width: 60px;
+}
+
+.inputform{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 10vh;
+    max-height: 75px;
+    width: 25vw;
+    max-width: 100%;
+  
+   
+}
+
+.weather{
+    display: none;
+    flex-direction: column;
+    width: auto;
+    max-width: 70vw ;
+    margin-top: 2vh;
+    padding-top: 10vh ;
+    text-align: center;
+    overflow: visible;
+}
+
+
+
+.icon{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 12vh;
+    margin-bottom: 3vh;
+
+
+}
+
+.weath_ic{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.temp{
+    display: flex;
+    font-size: 5vh;
+    align-self: center;
+    justify-content: center;
+    color: rgb(158, 153, 153);
+    font-family: 'Goudy Old Style', 'Hight Tower Text', Georgia;
+    text-shadow: 2px 1px 2px black;
+}
+
+.weath_tem{
+    display: flex;
+    justify-content: center;
+}
+
+.city{
+    display: flex;
+    font-size: 6vh;
+    align-self: center;
+    justify-content: center;
+    color: rgba(138, 129, 129, 0.849);
+    margin-top: 18vh;
+
+    font-family: 'Goudy Old Style', 'Hight Tower Text', Georgia; 
+    font-weight: bold;
+    text-shadow: 2px 1px 2px black;
+    position: fixed;
+    top: 0;
+}
+
+.weath_cit {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3vh;
+    font-weight: bold;
+    align-self: center;
+    color: rgb(192, 186, 186);
+    font-family: 'Goudy Old Style', 'Hight Tower Text', Georgia;
+    text-shadow: 2px 1px 2px black;
+
+    
+}
+
+
+.high {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3vh;
+    font-weight: bold;
+    align-self: center;
+    color: rgb(237, 87, 12);
+    font-family: 'Goudy Old Style', 'Hight Tower Text', Georgia;
+    text-shadow: 2px 1px 2px black;
+}
+
+.low {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3vh;
+    font-weight: bold;
+    align-self: center;
+    color: rgb(123, 132, 231);
+    font-family: 'Goudy Old Style', 'Hight Tower Text', Georgia;
+    text-shadow: 2px 1px 2px black;
+}
+
+.feels{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3vh;
+    font-weight: bold;
+    align-self: center;
+    color: rgb(214, 206, 206);
+    font-family: 'Goudy Old Style', 'Hight Tower Text', Georgia;
+    text-shadow: 2px 1px 2px black;
+
+}
+
+.humidity{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3vh;
+    font-weight: bold;
+    align-self: center;
+    color: rgb(214, 206, 206);
+    font-family: 'Goudy Old Style', 'Hight Tower Text', Georgia;
+    text-shadow: 2px 1px 2px black;
+}
+
+.error{
+    display: none;
+    height: 12vh;
+    width: 20vw;
+    align-items: end;
+    justify-content: left;
+    font-size: 2vh;
+    color: white;
+    font-family: 'Goudy Old Style', 'Hight Tower Text', Georgia;
+  
+    
+}
+
+.forecast_head {
+    max-width: auto;
+    min-width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    font-size: 2.5vh;
+    color: #3d90ee;
+    font-family: 'Goudy Old Style', 'Hight Tower Text', Georgia;
+    text-shadow: 2px 1px 2px black;
+
+}
+    
+.tomorrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    color: #3d90ee;
+    font-size: 2.5vh;
+    font-family: 'Goudy Old Style', 'Hight Tower Text', Georgia;
+    font-weight: bold;
+    text-shadow: 2px 1px 2px black;
+}
+
+.tomorrow p {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.fore1 {
+    font-size: 2vh;
+}
+
+.next_day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+    color: #3d90ee;;
+    font-size: 2.5vh;
+    font-family: 'Goudy Old Style' , 'Hight Tower Text', Georgia;
+    font-weight: bold;
+    text-shadow: 2px 1px 2px black;
+}
+
+ .next_day p{
+    display: flex; 
+    justify-content: space-evenly;
+ }
+
+ .fore2 {
+    font-size: 2vh;
+}
+
+
+.day_after {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    color: #3d90ee;;
+    font-size: 2.5vh;
+    font-family: 'Goudy Old Style', 'Hight Tower Text', Georgia;
+    font-weight: bold;
+    text-shadow: 2px 1px 2px black;
+
+}
+
+.day_after p {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.fore3 {
+    font-size: 2vh;
+}
+
+.forecast { 
+    display: none;
+    justify-content: center;
+    width: 30vw;
+    min-width: 20vw;
+    height: 30vh;
+}
+    
+
+.pic1 {
+    width: 3vw;
+}
+
+
+.pic2{
+    width: 3vw;
+}
+
+
+.pic3 {
+    width: 3vw;
+}
